@@ -11,6 +11,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 
+
+
 # Flask 세팅
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "hard to guess string"
